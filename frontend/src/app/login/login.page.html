@@ -1,0 +1,9 @@
+ 
+
+<ion-content [fullscreen]="true" > 
+  <div class="container">
+    <img *ngIf="!isSplash" src="/assets/pages/login.png" alt="">
+    <img *ngIf="isSplash" src="/assets/pages/splashscreen.png" alt="">
+    <a (click)="onSplash()" class="click"></a>
+  </div>
+</ion-content>

@@ -1,0 +1,35 @@
+
+ion-row{
+    ion-col{
+        padding: 0px;
+    }
+}
+.container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.c-1{
+    position: relative;
+    border-right: 1px solid #DFDFDF;
+    background: #fff;
+}
+
+.list-btn{
+    position: absolute;
+    height: 59px;
+    width: 232px; 
+    cursor: pointer;
+}
+.home{ 
+    top: 14%;
+}
+.dashboard{ 
+    top: 21%;
+}
+.courses{ 
+    top: 28%;
+}
+.progress{ 
+    top: 35%;
+}

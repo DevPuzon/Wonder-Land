@@ -1,0 +1,39 @@
+.c-1{
+    position: absolute;
+    z-index: 1;
+    background: rgba(0,0,0,.2);
+    height: 100%;
+    width: 100%;
+    display: grid;
+    align-content: center;
+    place-content: center;
+}
+.c-2{
+    background: #fff;
+    width: fit-content;
+    height: 490px;
+    width: 390px;
+    display: grid;
+    align-content: center;
+    place-items: center;
+    border-radius: 8px;
+}
+.c-3{
+    display: grid;
+    column-gap: 10px;
+    row-gap: 15px;
+    margin-top: 33px;
+}
+.c-btn{
+    font-size: 19px;
+    padding: 8px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.c-token{
+    display: flex;
+}
+.c-token p{
+    color: #419644;
+    font-weight: 700;
+}

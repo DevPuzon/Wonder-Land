@@ -1,0 +1,34 @@
+ 
+.container{ 
+    position: relative;
+    width: fit-content;
+} 
+
+#cc-1{
+    position: absolute;
+    top: 33%;
+    left: 3%;
+    width: 639px;
+    height: 55px;
+    opacity: .2; 
+    cursor: pointer;
+}
+#cc-2{
+    position: absolute;
+    top: 26%;
+    right: 10%;   
+    height: 193px;
+    width: 218px;
+    left: 39%;
+    opacity: 0.1;
+    cursor: pointer;
+}
+#cc-3{
+    position: absolute;
+    top: 1%;
+    right: 3%;
+    height: 100px;
+    width: 211px;
+    opacity: .1;
+    cursor: pointer; 
+}

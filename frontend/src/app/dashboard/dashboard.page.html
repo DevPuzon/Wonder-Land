@@ -1,0 +1,21 @@
+ 
+<ion-content>
+  
+  <ion-row>
+    <ion-col size="2.1"> 
+      <div class="c-1">
+        <img [src]="sideBar" alt="">
+        <div (click)="onChangeItem('home')"  class="list-btn home"></div>
+        <div (click)="onChangeItem('dashboard')"  class="list-btn dashboard"></div>
+        <!-- <div (click)="onChangeItem('courses')"  class="list-btn courses"></div> -->
+        <div (click)="onChangeItem('progress')" class="list-btn progress"></div>
+        <div (click)="onChangeItem('settings')" class="list-btn settings"></div>
+      </div>
+    </ion-col>
+    <ion-col size="9.9">
+      <div class="c-2"> 
+        <ion-router-outlet></ion-router-outlet>
+      </div>
+    </ion-col>
+  </ion-row>
+</ion-content>

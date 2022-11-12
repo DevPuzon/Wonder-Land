@@ -1,0 +1,15 @@
+ion-content{
+  --background: #FFFAEB;
+}
+.container{ 
+  position: relative;
+  width: fit-content;
+}
+.login{
+  position: absolute;
+  height: 46px;
+  width: 75px; 
+  top: .9%;
+  right: 19%; 
+  cursor: pointer;
+}

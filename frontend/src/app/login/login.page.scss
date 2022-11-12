@@ -1,0 +1,15 @@
+ion-content{
+    --background: #FFFAEB;
+  }
+  .container{ 
+    position: relative;
+    width: fit-content;
+  }
+  .click{
+    position: absolute;
+    height: 51px;
+    width: 377px;
+    top: 41.9%;
+    right: 65%; 
+    cursor: pointer;
+  }
